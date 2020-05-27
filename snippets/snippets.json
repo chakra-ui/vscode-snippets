@@ -1,6 +1,108 @@
 {
   "Import Accordion": {
     "prefix": "iacc",
+    "description": "⚡️ Chakra UI: Import Accordion Components",
     "body": "import { Accordion, AccordionItem, AccordionHeader, AccordionPanel, AccordionIcon} from \"@chakra-ui/core\""
+  },
+  "Accordion": {
+    "prefix": "acc",
+    "description": "⚡️ Chakra UI: Example Accordion Component",
+    "body": [
+      "<Accordion>",
+      "\t<AccordionItem>",
+      "\t\t<AccordionHeader>",
+      "\t\t\t<Box flex=\"1\" tetAlgn=\"left\">",
+      "\t\t\tSection 1 title",
+      "\t\t\t</Box>",
+      "\t\t\t<AccordionIcon />",
+      "\t\t</AccordionHeader>",
+      "\t\t<AccordionPanel pb={4}>",
+      "\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+      "\t\ttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      "\t\tveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+      "\t\tcommodo consequat.",
+      "\t\t</AccordionPanel>",
+      "\t</AccordionItem>",
+      "</Accordion>"
+    ]
+  },
+  "Import Alert": {
+    "prefix": "ialert",
+    "description": "⚡️ Chakra UI: Import Alert Components",
+    ",body": "import { Alert, AlertIcon, AlertTitle, AlertDescription } from \"@chakra-ui/core\""
+  },
+  "Alert": {
+    "prefix": "alert",
+    "description": "⚡️ Chakra UI: Example Alert Components",
+    "body": [
+      "<Alert status=${0:\"error\"}>",
+      "\t<AlertIcon />",
+      "\t<AlertTitle mr={2}>${1:Your browser is outdated!}</AlertTitle>",
+      "\t<AlertDescription>Your Chakra experience may be degraded.</AlertDescription>",
+      "\t<CloseButton position=\"absolute\" right=\"8px\" top=\"8px\" />",
+      "</Alert>"
+    ]
+  },
+  "Import AlertDialog": {
+    "prefix": "ialertDialog",
+    "description": "⚡️ Chakra UI: Import AlertDialog Component",
+    "body": "import { AlertDialog, AlertDialogBody, AlertDialogFooter, AlertDialogHeader, AlertDialogContent, AlertDialogOverlay } from \"@chakra-ui/core\""
+  },
+  "AlertDialog": {
+    "prefix": "alertDialog",
+    "description": "⚡️ Chakra UI: Example AlertDialog Component",
+    "body": [
+      "",
+      "<>",
+      "<Button variantColor=\"red\" onClick={() => setIsOpen(true)}>",
+      "Delete Customer",
+      "</Button>",
+      "",
+      "<AlertDialog",
+      "isOpen={isOpen}",
+      "leastDestructiveRef={cancelRef}",
+      "onClose={onClose}",
+      ">",
+      "<AlertDialogOverlay />",
+      "<AlertDialogContent>",
+      "\t<AlertDialogHeader fontSize=\"lg\" fontWeight=\"bold\">",
+      "\tDelete Customer",
+      "\t</AlertDialogHeader>",
+      "",
+      "\t<AlertDialogBody>",
+      "\tAre you sure? You can't undo this action afterwards.",
+      "\t</AlertDialogBody>",
+      "",
+      "\t<AlertDialogFooter>",
+      "\t<Button ref={cancelRef} onClick={onClose}>",
+      "\t\t\tCancel",
+      "\t</Button>",
+      "\t<Button variantColor=\"red\" onClick={onClose} ml={3}>",
+      "\t\t\tDelete",
+      "\t</Button>",
+      "\t</AlertDialogFooter>",
+      "</AlertDialogContent>",
+      "</AlertDialog>",
+      "</>"
+    ]
+  },
+  "Import AspectRatio": {
+    "prefix": "iaspect",
+    "description": "⚡️ Chakra UI: Import AspectRatio Component",
+    "body": "import { AspectRatioBox } from \"@chakra-ui/core\""
+  },
+  "AspectRatio": {
+    "prefix": "aspect",
+    "description": "⚡️ Chakra UI: Example AspectRatio Component",
+    "body": [
+      "<AspectRatioBox maxW=\"560px\" ratio={1}>",
+      "\t<Box",
+      "\t\tas=\"iframe\"",
+      "\t\ttitle=\"naruto\"",
+      "\t\tsrc=\"https://www.youtube.com/embed/QhBnZ6NPOY0\"",
+      "\t\tallowFullScreen\"",
+      "\t/>",
+      "</AspectRatioBox>"
+    ]
   }
 }
