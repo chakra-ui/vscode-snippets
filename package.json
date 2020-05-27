@@ -1,25 +1,26 @@
 {
-    "name": "chakra-snippets",
-    "displayName": "chakra-snippets",
-    "description": "Snippets for Chakra-UI",
-    "version": "0.0.1",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/chakra-ui/vscode-snippets"
-    },
-    "icon": "icon.png",
-    "engines": {
-        "vscode": "^1.45.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "chakra-snippets",
+  "displayName": "chakra-snippets",
+  "description": "Snippets for Chakra-UI",
+  "version": "0.0.1",
+  "publisher": "chakra-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chakra-ui/vscode-snippets"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
