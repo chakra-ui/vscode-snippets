@@ -22,5 +22,8 @@
         "path": "./snippets/snippets.json"
       }
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
