@@ -1,0 +1,6 @@
+{
+    "importAccordion": {
+      "prefix": "iacc",
+      "body": "import { Accordion, AccordionItem, AccordionHeader, AccordionPanel, AccordionIcon} from \"@chakra-ui/core\""
+    }
+}
