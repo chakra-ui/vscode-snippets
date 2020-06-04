@@ -104,5 +104,464 @@
       "\t/>",
       "</AspectRatioBox>"
     ]
+  },
+  "Import Avatar": {
+    "prefix": "iavatar",
+    "description": "⚡️ Chakra UI: Import Avatar Component",
+    "body": "import { Avatar, AvatarBadge } from \"@chakra-ui/core\""
+  },
+  "Avatar": {
+    "prefix": "avatar",
+    "description": "⚡️ Chakra UI: Example AspectRatio Component",
+    "body": [
+      "<Avatar name=\"Segun Adebayo\" src=\"https://bit.ly/sage-adebayo\"/>"
+    ]
+  },
+  "Import Badge": {
+    "prefix": "ibadge",
+    "description": "⚡️ Chakra UI: Import Badge Component",
+    "body": "import { Badge } from \"@chakra-ui/core\""
+  },
+  "Badge": {
+    "prefix": "badge",
+    "description": "⚡️ Chakra UI: Example Badge Component",
+    "body": [
+      "<Text fontSize=\"xl\" fontWeight=\"bold\">",
+      "\tSegun Adebayo",
+      "\t<Badge ml=\"1\" fontSize=\"0.8em\" variantColor=\"green\">",
+      "\t\tNew",
+      "\t</Badge>",
+      "</Text>"
+    ]
+  },
+  "Import Box": {
+    "prefix": "ibox",
+    "description": "⚡️ Chakra UI: Import Box Components",
+    "body": ""
+  },
+  "Box": {
+    "prefix": "box",
+    "description": "⚡️ Chakra UI: Example Box Component",
+    "body": ""
+  },
+  "Import Breadcrumb": {
+    "prefix": "ibreadcrumb",
+    "description": "⚡️ Chakra UI: Import Breadcrumb Components",
+    "body": ""
+  },
+  "Breadcrumb": {
+    "prefix": "breadcrumb",
+    "description": "⚡️ Chakra UI: Example Breadcrumb Component",
+    "body": ""
+  },
+  "Import Button": {
+    "prefix": "ibutton",
+    "description": "⚡️ Chakra UI: Import Button Components",
+    "body": ""
+  },
+  "Button": {
+    "prefix": "button",
+    "description": "⚡️ Chakra UI: Example Button Component",
+    "body": ""
+  },
+  "Import Checkbox": {
+    "prefix": "icheckbox",
+    "description": "⚡️ Chakra UI: Import Checkbox Components",
+    "body": ""
+  },
+  "Checkbox": {
+    "prefix": "checkbox",
+    "description": "⚡️ Chakra UI: Example Checkbox Component",
+    "body": ""
+  },
+  "Import CircularProgress": {
+    "prefix": "icircularprogress",
+    "description": "⚡️ Chakra UI: Import CircularProgress Components",
+    "body": ""
+  },
+  "CircularProgress": {
+    "prefix": "circularprogress",
+    "description": "⚡️ Chakra UI: Example CircularProgress Component",
+    "body": ""
+  },
+  "Import CloseButton": {
+    "prefix": "iclosebutton",
+    "description": "⚡️ Chakra UI: Import CloseButton Components",
+    "body": ""
+  },
+  "CloseButton": {
+    "prefix": "closebutton",
+    "description": "⚡️ Chakra UI: Example CloseButton Component",
+    "body": ""
+  },
+  "Import Code": {
+    "prefix": "icode",
+    "description": "⚡️ Chakra UI: Import Code Components",
+    "body": ""
+  },
+  "Code": {
+    "prefix": "code",
+    "description": "⚡️ Chakra UI: Example Code Component",
+    "body": ""
+  },
+  "Import Collapse": {
+    "prefix": "icollapse",
+    "description": "⚡️ Chakra UI: Import Collapse Components",
+    "body": ""
+  },
+  "Collapse": {
+    "prefix": "collapse",
+    "description": "⚡️ Chakra UI: Example Collapse Component",
+    "body": ""
+  },
+  "Import ControlBox": {
+    "prefix": "icontrolbox",
+    "description": "⚡️ Chakra UI: Import ControlBox Components",
+    "body": ""
+  },
+  "ControlBox": {
+    "prefix": "controlbox",
+    "description": "⚡️ Chakra UI: Example ControlBox Component",
+    "body": ""
+  },
+  "Import Divider": {
+    "prefix": "idivider",
+    "description": "⚡️ Chakra UI: Import Divider Components",
+    "body": ""
+  },
+  "Divider": {
+    "prefix": "divider",
+    "description": "⚡️ Chakra UI: Example Divider Component",
+    "body": ""
+  },
+  "Import Drawer": {
+    "prefix": "idrawer",
+    "description": "⚡️ Chakra UI: Import Drawer Components",
+    "body": ""
+  },
+  "Drawer": {
+    "prefix": "drawer",
+    "description": "⚡️ Chakra UI: Example Drawer Component",
+    "body": ""
+  },
+  "Import Editable": {
+    "prefix": "ieditable",
+    "description": "⚡️ Chakra UI: Import Editable Components",
+    "body": ""
+  },
+  "Editable": {
+    "prefix": "editable",
+    "description": "⚡️ Chakra UI: Example Editable Component",
+    "body": ""
+  },
+  "Import Flex": {
+    "prefix": "iflex",
+    "description": "⚡️ Chakra UI: Import Flex Components",
+    "body": ""
+  },
+  "Flex": {
+    "prefix": "flex",
+    "description": "⚡️ Chakra UI: Example Flex Component",
+    "body": ""
+  },
+  "Import FormControl": {
+    "prefix": "iformcontrol",
+    "description": "⚡️ Chakra UI: Import FormControl Components",
+    "body": ""
+  },
+  "FormControl": {
+    "prefix": "formcontrol",
+    "description": "⚡️ Chakra UI: Example FormControl Component",
+    "body": ""
+  },
+  "Import Grid": {
+    "prefix": "igrid",
+    "description": "⚡️ Chakra UI: Import Grid Components",
+    "body": ""
+  },
+  "Grid": {
+    "prefix": "grid",
+    "description": "⚡️ Chakra UI: Example Grid Component",
+    "body": ""
+  },
+  "Import Heading": {
+    "prefix": "iheading",
+    "description": "⚡️ Chakra UI: Import Heading Components",
+    "body": ""
+  },
+  "Heading": {
+    "prefix": "heading",
+    "description": "⚡️ Chakra UI: Example Heading Component",
+    "body": ""
+  },
+  "Import Icon": {
+    "prefix": "iicon",
+    "description": "⚡️ Chakra UI: Import Icon Components",
+    "body": ""
+  },
+  "Icon": {
+    "prefix": "icon",
+    "description": "⚡️ Chakra UI: Example Icon Component",
+    "body": ""
+  },
+  "Import IconButton": {
+    "prefix": "iiconbutton",
+    "description": "⚡️ Chakra UI: Import IconButton Components",
+    "body": ""
+  },
+  "IconButton": {
+    "prefix": "iconbutton",
+    "description": "⚡️ Chakra UI: Example IconButton Component",
+    "body": ""
+  },
+  "Import Image": {
+    "prefix": "iimage",
+    "description": "⚡️ Chakra UI: Import Image Components",
+    "body": ""
+  },
+  "Image": {
+    "prefix": "image",
+    "description": "⚡️ Chakra UI: Example Image Component",
+    "body": ""
+  },
+  "Import Input": {
+    "prefix": "iinput",
+    "description": "⚡️ Chakra UI: Import Input Components",
+    "body": ""
+  },
+  "Input": {
+    "prefix": "input",
+    "description": "⚡️ Chakra UI: Example Input Component",
+    "body": ""
+  },
+  "Import Link": {
+    "prefix": "ilink",
+    "description": "⚡️ Chakra UI: Import Link Components",
+    "body": ""
+  },
+  "Link": {
+    "prefix": "link",
+    "description": "⚡️ Chakra UI: Example Link Component",
+    "body": ""
+  },
+  "Import List": {
+    "prefix": "ilist",
+    "description": "⚡️ Chakra UI: Import List Components",
+    "body": ""
+  },
+  "List": {
+    "prefix": "list",
+    "description": "⚡️ Chakra UI: Example List Component",
+    "body": ""
+  },
+  "Import Menu": {
+    "prefix": "imenu",
+    "description": "⚡️ Chakra UI: Import Menu Components",
+    "body": ""
+  },
+  "Menu": {
+    "prefix": "menu",
+    "description": "⚡️ Chakra UI: Example Menu Component",
+    "body": ""
+  },
+  "Import Modal": {
+    "prefix": "imodal",
+    "description": "⚡️ Chakra UI: Import Modal Components",
+    "body": ""
+  },
+  "Modal": {
+    "prefix": "modal",
+    "description": "⚡️ Chakra UI: Example Modal Component",
+    "body": ""
+  },
+  "Import NumberInput": {
+    "prefix": "inumberinput",
+    "description": "⚡️ Chakra UI: Import NumberInput Components",
+    "body": ""
+  },
+  "NumberInput": {
+    "prefix": "numberinput",
+    "description": "⚡️ Chakra UI: Example NumberInput Component",
+    "body": ""
+  },
+  "Import Popover": {
+    "prefix": "ipopover",
+    "description": "⚡️ Chakra UI: Import Popover Components",
+    "body": ""
+  },
+  "Popover": {
+    "prefix": "popover",
+    "description": "⚡️ Chakra UI: Example Popover Component",
+    "body": ""
+  },
+  "Import Progress": {
+    "prefix": "iprogress",
+    "description": "⚡️ Chakra UI: Import Progress Components",
+    "body": ""
+  },
+  "Progress": {
+    "prefix": "progress",
+    "description": "⚡️ Chakra UI: Example Progress Component",
+    "body": ""
+  },
+  "Import PseudoBox": {
+    "prefix": "ipseudobox",
+    "description": "⚡️ Chakra UI: Import PseudoBox Components",
+    "body": ""
+  },
+  "PseudoBox": {
+    "prefix": "pseudobox",
+    "description": "⚡️ Chakra UI: Example PseudoBox Component",
+    "body": ""
+  },
+  "Import Radio": {
+    "prefix": "iradio",
+    "description": "⚡️ Chakra UI: Import Radio Components",
+    "body": ""
+  },
+  "Radio": {
+    "prefix": "radio",
+    "description": "⚡️ Chakra UI: Example Radio Component",
+    "body": ""
+  },
+  "Import SimpleGrid": {
+    "prefix": "isimplegrid",
+    "description": "⚡️ Chakra UI: Import SimpleGrid Components",
+    "body": ""
+  },
+  "SimpleGrid": {
+    "prefix": "simplegrid",
+    "description": "⚡️ Chakra UI: Example SimpleGrid Component",
+    "body": ""
+  },
+  "Import Select": {
+    "prefix": "iselect",
+    "description": "⚡️ Chakra UI: Import Select Components",
+    "body": ""
+  },
+  "Select": {
+    "prefix": "select",
+    "description": "⚡️ Chakra UI: Example Select Component",
+    "body": ""
+  },
+  "Import Skeleton": {
+    "prefix": "iskeleton",
+    "description": "⚡️ Chakra UI: Import Skeleton Components",
+    "body": ""
+  },
+  "Skeleton": {
+    "prefix": "skeleton",
+    "description": "⚡️ Chakra UI: Example Skeleton Component",
+    "body": ""
+  },
+  "Import Slider": {
+    "prefix": "islider",
+    "description": "⚡️ Chakra UI: Import Slider Components",
+    "body": ""
+  },
+  "Slider": {
+    "prefix": "slider",
+    "description": "⚡️ Chakra UI: Example Slider Component",
+    "body": ""
+  },
+  "Import Spinner": {
+    "prefix": "ispinner",
+    "description": "⚡️ Chakra UI: Import Spinner Components",
+    "body": ""
+  },
+  "Spinner": {
+    "prefix": "spinner",
+    "description": "⚡️ Chakra UI: Example Spinner Component",
+    "body": ""
+  },
+  "Import Stat": {
+    "prefix": "istat",
+    "description": "⚡️ Chakra UI: Import Stat Components",
+    "body": ""
+  },
+  "Stat": {
+    "prefix": "stat",
+    "description": "⚡️ Chakra UI: Example Stat Component",
+    "body": ""
+  },
+  "Import Stack": {
+    "prefix": "istack",
+    "description": "⚡️ Chakra UI: Import Stack Components",
+    "body": ""
+  },
+  "Stack": {
+    "prefix": "stack",
+    "description": "⚡️ Chakra UI: Example Stack Component",
+    "body": ""
+  },
+  "Import Switch": {
+    "prefix": "iswitch",
+    "description": "⚡️ Chakra UI: Import Switch Components",
+    "body": ""
+  },
+  "Switch": {
+    "prefix": "switch",
+    "description": "⚡️ Chakra UI: Example Switch Component",
+    "body": ""
+  },
+  "Import Tabs": {
+    "prefix": "itabs",
+    "description": "⚡️ Chakra UI: Import Tabs Components",
+    "body": ""
+  },
+  "Tabs": {
+    "prefix": "tabs",
+    "description": "⚡️ Chakra UI: Example Tabs Component",
+    "body": ""
+  },
+  "Import Tag": {
+    "prefix": "itag",
+    "description": "⚡️ Chakra UI: Import Tag Components",
+    "body": ""
+  },
+  "Tag": {
+    "prefix": "tag",
+    "description": "⚡️ Chakra UI: Example Tag Component",
+    "body": ""
+  },
+  "Import Text": {
+    "prefix": "itext",
+    "description": "⚡️ Chakra UI: Import Text Components",
+    "body": ""
+  },
+  "Text": {
+    "prefix": "text",
+    "description": "⚡️ Chakra UI: Example Text Component",
+    "body": ""
+  },
+  "Import Textarea": {
+    "prefix": "itextarea",
+    "description": "⚡️ Chakra UI: Import Textarea Components",
+    "body": ""
+  },
+  "Textarea": {
+    "prefix": "textarea",
+    "description": "⚡️ Chakra UI: Example Textarea Component",
+    "body": ""
+  },
+  "Import Toast": {
+    "prefix": "itoast",
+    "description": "⚡️ Chakra UI: Import Toast Components",
+    "body": ""
+  },
+  "Toast": {
+    "prefix": "toast",
+    "description": "⚡️ Chakra UI: Example Toast Component",
+    "body": ""
+  },
+  "Import Tooltip": {
+    "prefix": "itooltip",
+    "description": "⚡️ Chakra UI: Import Tooltip Components",
+    "body": ""
+  },
+  "Tooltip": {
+    "prefix": "tooltip",
+    "description": "⚡️ Chakra UI: Example Tooltip Component",
+    "body": ""
   }
 }

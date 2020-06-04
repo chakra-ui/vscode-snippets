@@ -30,4 +30,14 @@ import {
     <AlertDescription>Your Chakra experience may be degraded.</AlertDescription>
     <CloseButton position="absolute" right="8px" top="8px" />
   </Alert>
+
+  <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo"/>
+
+  <Text fontSize="xl" fontWeight="bold">
+    Segun Adebayo
+    <Badge ml="1" fontSize="0.8em" variantColor="green">
+      New
+    </Badge>
+  </Text>
+
 </div>;
