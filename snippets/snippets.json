@@ -1040,7 +1040,7 @@
   "Textarea": {
     "prefix": "textarea",
     "description": "⚡️ Chakra UI: Example Textarea Component",
-    "body": []
+    "body": "<Textarea placeholder=\"Here is a sample placeholder\" />"
   },
   "Import Toast": {
     "prefix": "itoast",
